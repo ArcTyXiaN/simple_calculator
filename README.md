@@ -1,89 +1,90 @@
 # simple_calculator
  A simple command-line calculator in Python that performs basic arithmetic operations in a continuous loop until the user decides to exit.
-Sure! Here's a more detailed, human-sounding and polished version of your full README. It's written in a natural, beginner-friendly tone that’s also clean and professional for GitHub:
-
 
  Simple Python Calculator
 
-This is a beginner-friendly command-line calculator built using Python. It lets you perform basic arithmetic operations — like adding, subtracting, multiplying, dividing, and floor dividing two numbers. The best part? It runs in a loop, so you can keep calculating as long as you want, without restarting the program.
+This is a basic terminal calculator built with Python. It performs arithmetic operations like addition, subtraction, multiplication, division, and floor division between two numbers. The calculator keeps running until the user decides to stop.
+
 
 Features
 
-- Accepts two numeric inputs and an arithmetic operator
-- Supports five operations:  
-  `+` for addition  
-  `-` for subtraction  
-  `*` for multiplication  
-  `/` for division  
-  `//` for floor division (removes decimal part)
-- Prevents crashes by handling division by zero
-- Accepts casual ways of saying "yes" like `yes`, `yo`, `yeah`, or `yep`
-- Loops until the user clearly says they're done
+- Takes two numbers and an operator from the user
+- Supports:
+  - `+` for addition  
+  - `-` for subtraction  
+  - `*` for multiplication  
+  - `/` for division  
+  - `//` for floor division
+- Handles division by zero to prevent crashes
+- Understands multiple ways of saying "yes" to continue (`yes`, `yo`, `yeah`, `yep`)
+- Runs in a loop until the user chooses to exit.
 
- How to Use
 
-Getting started is simple — no installations or external packages needed.
+How to Use
 
-1. Clone this repository or copy the script into a `.py` file (e.g. `calculator.py`).
-2. Open your terminal or command line.
-3. Run the script with Python 3:
+1. Clone this repository or copy the script into a file named `calculator.py`.
+2. Open your terminal or command prompt.
+3. Run the script using Python 3:
+   ```bash
    python calculator.py
 
-4. Enter two numbers when prompted.
+4. Follow the prompts:
 
+-Enter two numbers
 
-5. Type the operator (+, -, *, /, //) to perform the calculation.
+-Enter an operator
 
+-View the result
 
-6. After each result, the program will ask if you want to perform another operation.
-Type something like yes, yo, or yep to continue, or anything else to exit.
+-Choose whether to continue or exit
+
 
 Sample Run
 
-Enter num1: 8
-Enter num2: 2
-Enter operator (+, -, *, /, //): *
-You entered 8 as num1, 2 as num2, and * as operator
-Result: 16
-Do you want to perform another operation? (yes/no): yo
+Enter num1: 8  
+Enter num2: 2  
+Enter operator (+, -, *, /, //): *  
+You entered 8 as num1, 2 as num2, and * as operator  
+Result: 16  
+Do you want to perform another operation? (yes/no): yo  
 Running again...
+
 
 File Overview
 
-calculator.py – The main Python file that contains all the logic for the calculator.
+calculator.py — contains the full logic of the calculator.
 
- Requirements
+
+Requirements
 
 Python 3.x
-You can download it from python.org if you don’t have it installed already.
+
+
+
 
 Why This Project Exists
 
-This was created as a small learning project to help beginners:
+This was built as a practice project to learn how to:
 
-Get familiar with Python syntax
+Use if/elif/else conditions
 
-Practice using if, elif, and else statements
+Take and handle user input
 
-Understand how loops and user input work
+Use loops effectively
 
-Learn basic error handling (like division by zero)
+Handle simple errors like division by zero
 
-
-It’s simple, readable, and a good starting point for building more advanced command-line tools.
-
-Where to Run It
-
-Locally on your system using Python 3
-
-On platforms like Replit, Codespaces, or any online Python interpreter
+It's a simple and clean example for anyone learning Python basics through terminal projects.
 
 
-Let me know if you want setup help for those environments — easy to copy-paste and run!
+Where You Can Run It
 
- License
+On your local machine with Python installed
 
-This project is free and open source — feel free to use it for learning, personal projects, or even as a base for your own calculator app.
+On online Python editors like Replit, Codespaces, or any Python-supported environment
 
 
-If you found this helpful or made improvements, feel free to fork it or star the repo. Happy coding!
+License
+
+Free to use, edit, and build on for learning or personal use file through the browser or terminal . I can walk you through that next.
+
